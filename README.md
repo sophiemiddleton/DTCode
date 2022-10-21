@@ -41,4 +41,8 @@ Two output text files are produced:
 
 Each file is produced for a given run_time.
 
-The MCA has 256 channels, the dump over RS232 gives a number of counts for each channel.
+The MCA has 256 channels, the dump over RS232 gives a number of counts for each channel.This is stored in the "channel_file".
+
+## Using this code for data analysis:
+
+The "data_analysis.py" file can be used to analyze the output of the extraction phase.
