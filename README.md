@@ -17,5 +17,12 @@ set to zero, it will reset to zero. If it is set to a number, it will reset to t
 detector contains the option source, this choice will be shown only when the MCA is running. If
 the source is not installed, this choice will not be shown.
 
+Serial port can be read using the python library "serial": https://pyserial.readthedocs.io/en/latest/pyserial.html .
 
-Serial port can be read using the python library "serial": https://pyserial.readthedocs.io/en/latest/pyserial.html
+When in the MCA mode to communicate with the device:
+
+* S Stops Counting
+* G Go, Starts counting
+* C Clears MCA memory
+* D Downloads the MCA memory
+
