@@ -26,3 +26,6 @@ When in the MCA mode to communicate with the device:
 * C Clears MCA memory
 * D Downloads the MCA memory
 
+The MCA data is downloaded in hex format, 2 bytes per channel. Channel 1 is first,
+followed by channel 2, channel 3, etc until all 256 channels have been downloaded.
+There is a space between each channel. e.g. 0A32 counts is 2610 counts.
