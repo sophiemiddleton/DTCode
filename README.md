@@ -46,3 +46,5 @@ The MCA has 256 channels, the dump over RS232 gives a number of counts for each 
 ## Using this code for data analysis:
 
 The "data_analysis.py" file can be used to analyze the output of the extraction phase.
+
+The manual describes how to find the mu rem/hr and mu rad / hr  using an equation. The QF for the channels is derived from a smoothing of the ICRP values and ranges from 1 to 24.8. K is the Calibration Factor. It is used to get the rad/hr calculation. 
